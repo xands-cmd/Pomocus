@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pomodoro.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>PomoCus</title>
+</head>
+<body>
+    <main>
+
+      <div id="container-all"> <!-- to layout the elements all -->
+
+        <h1> POMOCUS </h1>
+        <p id="cycle-view"> Time to Study! </p>
+
+        <!-- for the timer -->
+        <div id = "circle-timer">
+          <div id = "circle-stroke">
+            <p id="time"> 25:00 </p>  
+          </div>
+        </div>
+
+        <!-- action buttons -->
+        <div id="timer-buttons">
+          <input type = "button" value="START" id="start-pause">
+          <input type = "button" value="RESET" id="reset-timer">
+        </div>   
+      </div>
+    </main>
+    <script src="pomodoro.js"></script>
+</body>
+</html>
